@@ -1,7 +1,10 @@
+[toc]
 
 # 一、巡检脚本简介
 
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170658.png)
+该项目GitHub地址：https://github.com/lhrbest
+
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416174954.png)
 
 > * 目前一共包含**8**个脚本，若脚本的扩展名为“.sql”则表示该脚本为sql脚本，若脚本的扩展名为“.pl”则表示该脚本为perl脚本。
 > * 对于Oracle的SQL脚本而言，脚本DB_Oracle_HC_lhr_v7.0.0_10g.sql适用于Oracle 10g数据库，脚本DB_Oracle_HC_lhr_v7.0.0_11g.sql适用于Oracle 11g的数据库，脚本DB_Oracle_HC_lhr_v7.0.0_12c.sql适用于Oracle 12c及其以上版本，这3个脚本都是**只读**版本，这3个脚本只会对数据库做查询操作，不会做DML和DDL操作，这也是很多朋友所期待的功能。
@@ -12,20 +15,20 @@
 
 # 二、巡检脚本特点
 
->1、可以巡检Oracle、MySQL、SQL Server和PG数据库，也可以巡检Linux操作系统  
->2、脚本为绿色版、免安装、纯SQL文本  
->3、跨平台，只要有SQL*Plus、mysql、MSSQL客户端（SSMS、Navicat皆可）、psql环境即可运行脚本  
->4、脚本内容可视化，可以看到脚本内容，因此可供学习数据库使用  
->5、兼容Oracle 10g、11g、12c、18c、19c、20c、21c等高版本Oracle数据库  
->6、对Oracle 10g、11g、12c、18c、19c、20c、21c等版本分别提供了只读版（只对数据库查询，不做DDL和DML操作）  
->7、MySQL最低支持5.5版本  
->8、SQL Server最低支持2005版本  
->9、增删监控项非常方便，只需要提供相关SQL即可  
->10、一次购买，所有脚本终身免费升级  
->11、检查内容非常全面  
->12、只有1个SQL脚本，不存在嵌套调用脚本等其它问题  
->13、最终生成html文件格式的健康检查结果  
->14、对结果进行过滤，列出了数据库有问题的内容  
+>1、可以巡检Oracle、MySQL、SQL Server和PG数据库，也可以巡检Linux操作系统 
+>2、脚本为绿色版、免安装、纯SQL文本 
+>3、跨平台，只要有SQL*Plus、mysql、MSSQL客户端（SSMS、Navicat皆可）、psql环境即可运行脚本 
+>4、脚本内容可视化，可以看到脚本内容，因此可供学习数据库使用 
+>5、兼容Oracle 10g、11g、12c、18c、19c、20c、21c等高版本Oracle数据库 
+>6、对Oracle 10g、11g、12c、18c、19c、20c、21c等版本分别提供了只读版（只对数据库查询，不做DDL和DML操作） 
+>7、MySQL最低支持5.5版本 
+>8、SQL Server最低支持2005版本 
+>9、增删监控项非常方便，只需要提供相关SQL即可 
+>10、一次购买，所有脚本终身免费升级 
+>11、检查内容非常全面 
+>12、只有1个SQL脚本，不存在嵌套调用脚本等其它问题 
+>13、最终生成html文件格式的健康检查结果 
+>14、对结果进行过滤，列出了数据库有问题的内容 
 >15、对OS的信息提供了收集（单独脚本）  
 
 # 三、巡检结果展示
@@ -34,46 +37,46 @@
 
 ## 1、Oracle数据库
 
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170734.png)
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170741.png)
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170749.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175002.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175054.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175102.png)
 
 鼠标经过相关连接时会有相应的解释，如下图所示：
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170812.jpeg)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175147.jpeg)
 
 该脚本检查的内容较多，所以我对结果进行了过滤，如下：
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170819.jpeg)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175140.jpeg)
 
 点击链接即可查看结果：
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170824.jpeg)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175127.jpeg)
 
 数据库基本信息一目了然：
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170831.jpeg)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175402.jpeg)
 
 ## 2、MySQL数据库
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170838.png)
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170842.png)
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170845.png)
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170851.jpeg)
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170855.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175354.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175347.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175212.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175220.jpeg)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175226.png)
 
 其它不再列举。
 
 ## 3、SQL Server数据库
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170900.png)
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170908.jpeg)
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170917.png)
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170924.jpeg)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175231.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175331.jpeg)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175324.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175248.jpeg)
 
 其它不再列举。
 
 ## 4、PG数据库
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170929.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416174814.png)
 
 
 
 ## 5、OS信息
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170937.jpeg)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416174814.png)
 
 
 
@@ -109,7 +112,7 @@ mysql -h192.168.1.63 -uroot -plhr -P3306 --html -t  -f --silent  <  DB_MySQL_HC_
 >
 > 2、客户端不要使用MariaDB的客户端，否则产生的html报告没有数据：
 >
-> ![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170945.jpeg)
+> ![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416174805.jpeg)
 >
 > 3、客户端最低版本为5.5，否则产生的html报告没有数据。
 
@@ -119,7 +122,7 @@ mysql -h192.168.1.63 -uroot -plhr -P3306 --html -t  -f --silent  <  DB_MySQL_HC_
 
 脚本DB_MSSQL_HC_lhr_v7.0.0_2005.sql和DB_MSSQL_HC_lhr_v7.0.0_2008R2.sql是SQL Server脚本，存在部分DDL和DML操作，执行后会产生SQL Server的健康检查html报告。脚本DB_MSSQL_HC_lhr_v7.0.0_2005.sql最低支持2005版本，而脚本DB_MSSQL_HC_lhr_v7.0.0_2008R2.sql最低支持2008R2版本。
 
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170949.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416175309.png)
 
 
 
@@ -165,27 +168,27 @@ total 56
 
 # 六、软件著作权登记证书
 
-小麦苗编写的该巡检系统已申请“**中华人民共和国国家版权局计算机软件著作权登记证书**”，请购买的朋友不要随意传播，否则将追究法律责任，谢谢。
+小麦苗编写的该巡检系统已申请“**中华人民共和国国家版权局计算机软件著作权登记证书**”，请购买的朋友不要随意传播，否则将追究法律责任，并且收回脚本，不再提供免费更新，谢谢。
 
 相关证书见下图：
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201170955.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416174754.png)
 
 # 七、购买方式
 
 目前售价**99**元，包括Oracle+MySQL+SQL Server+OS+PG的脚本，**后续免费优化，加量不加价**，支持以下购买方式：
 
 1、微信红包，请加我微信：db_bao，或用微信扫描以下二维码加麦老师微信：
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201171006.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416174750.png)
 
 2、QQ红包，请加我QQ：646634621，或用QQ扫以下二维码加我QQ：
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201171010.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416174746.png)
 
  
 
 3、微店购买连接：https://k.weidian.com/o5iECboc  
 
 我的微店的二维码如下所示：
-![](https://gitee.com/lhrbest/pic/raw/master/img/20210201171024.png)
+![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416174746.png)
 
 
 
@@ -209,6 +212,6 @@ total 56
 >
 > ***
 > 使用微信客户端扫描下面的二维码来关注小麦苗的微信公众号（[DB宝](https://mp.weixin.qq.com/s/Vm5PqNcDcITkOr9cQg6T7w)）及QQ群（DBA宝典）、添加小麦苗微信， 学习最实用的数据库技术。
-> ![](https://gitee.com/lhrbest/pic/raw/master/img/20210201171033.png)
+> ![](https://cdn.jsdelivr.net/gh/lhrbest/pic/img/20210416174729.png)
 >
 > ***
